@@ -1,4 +1,4 @@
-var apiserver = "https://e-commerce-i0t6.onrender.com";
+var apiserver = "https://e-commerce-hkzp.onrender.com";
 
 // *---functions---* //
 
