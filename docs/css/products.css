@@ -4,6 +4,15 @@
   transition: all 0.3s ease;
 }
 
+#navbar{
+  background: #092635;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  transition: top 0.3s;
+  z-index: 1000;
+}
+
 .products-title {
   text-align: center;
   font-size: 30px;

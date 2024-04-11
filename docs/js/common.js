@@ -76,3 +76,14 @@ Array.prototype.sum = function () {
   }
   return sum;
 };
+
+let prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+  let currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-500px"; // Adjust as needed to completely hide the navbar
+  }
+  prevScrollpos = currentScrollPos;
+};
