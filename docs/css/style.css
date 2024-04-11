@@ -8,6 +8,7 @@ body {
   background-color: #092635;
   color: #f2f2f2;
   font-family: "Montserrat", sans-serif;
+  transition: all 0.3s ease;
 }
 
 .container {
@@ -176,4 +177,37 @@ input[type="button"] {
 #savelogin {
   accent-color: #5c8374;
   cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .content-wrapper{
+    flex-direction: column;
+  }
+
+  .login-form{
+    margin-top: 5px;
+    width: unset;
+    max-width: 240px;
+  }
+
+  .login-image{
+    margin-top: 10px;
+    width: 70%;
+  }
+  .login-image img{
+    width: 100%;
+  }
+
+
+
+
+
+
+  #unauthorized{
+    height: 100vh;
+    justify-content: space-between;
+  }
+  .loggedoutimg img {
+    width: 100%;
+  }
 }

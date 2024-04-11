@@ -52,7 +52,7 @@
             class="category-button"
             value="All"
             id="Allproducts"
-            onclick="window.location.reload()"
+            onclick="getallproducts()"
           />
           <!-- dynamic -->
         </div>
@@ -133,11 +133,6 @@
             <img src="./assets/emptycart.svg" alt="empty-cart" />
           </div>
         </div>
-        <div class="cart-value">
-          <p>
-            Your Total Cart Value: <b>$<span id="total-value"></span></b>
-          </p>
-        </div>
         <div id="cards-container">
           <!-- dynamic -->
           <!-- <div class="product-card" id="${product._id}">
@@ -158,6 +153,11 @@
               }" onclick = "deleteItem('${product._id}', '${email}')">
             </div> 
         </div> -->
+        </div>
+        <div class="cart-value">
+          <p>
+            Your Total Cart Value: <b>$<span id="total-value"></span></b>
+          </p>
         </div>
       </div>
     </section>
