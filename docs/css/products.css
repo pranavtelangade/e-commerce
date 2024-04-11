@@ -244,7 +244,7 @@
     grid-column: span 3;
   }
 
-  .user-details{
+  .user-details {
     padding: 10px;
     background: #1b4242;
     border-radius: 20px;
@@ -252,15 +252,15 @@
     top: 110px;
   }
 
-  .password-input{
+  .password-input {
     flex-direction: column;
   }
 
-  .details{
+  .details {
     flex-direction: column;
   }
 
-  .change-password{
+  .change-password {
     justify-content: center;
     margin-top: 10px;
   }

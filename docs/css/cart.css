@@ -67,22 +67,22 @@
     border-bottom-right-radius: 0px;
   }
 
-  .emptycart{
+  .emptycart {
     margin-top: 10px;
     flex-direction: column;
   }
-  .empty-message{
+  .empty-message {
     width: 100%;
     padding: 10px;
   }
-  .message-content p{
+  .message-content p {
     font-size: 30px;
   }
-  .message-content a{
+  .message-content a {
     font-size: 35px;
   }
 
-  .empty-image{
+  .empty-image {
     width: 65%;
     align-self: center;
   }

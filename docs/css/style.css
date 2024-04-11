@@ -7,6 +7,7 @@
 body {
   background-color: #092635;
   color: #f2f2f2;
+  user-select: none;
   font-family: "Montserrat", sans-serif;
   transition: all 0.3s ease;
 }
@@ -180,30 +181,25 @@ input[type="button"] {
 }
 
 @media screen and (max-width: 767px) {
-  .content-wrapper{
+  .content-wrapper {
     flex-direction: column;
   }
 
-  .login-form{
+  .login-form {
     margin-top: 5px;
     width: unset;
     max-width: 240px;
   }
 
-  .login-image{
+  .login-image {
     margin-top: 10px;
     width: 70%;
   }
-  .login-image img{
+  .login-image img {
     width: 100%;
   }
 
-
-
-
-
-
-  #unauthorized{
+  #unauthorized {
     height: 100vh;
     justify-content: space-between;
   }
