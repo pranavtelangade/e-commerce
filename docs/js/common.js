@@ -1,5 +1,5 @@
-// var apiserver = "https://e-commerce-hkzp.onrender.com";
-var apiserver = "http://localhost:3000";
+var apiserver = "https://e-commerce-hkzp.onrender.com";
+// var apiserver = "http://localhost:3000";
 
 // *---functions---* //
 
