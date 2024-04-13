@@ -159,7 +159,6 @@ function addtocart(id, email) {
           document.getElementById("cartitems").innerHTML = "";
         }
       });
-      checkdarkmode();
     })
     .catch((error) => {
       console.error(error);
