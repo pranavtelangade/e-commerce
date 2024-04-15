@@ -98,3 +98,7 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 };
+
+document.querySelector(".login-again").addEventListener("click", () => {
+  window.location.href = "./index.html";
+});
